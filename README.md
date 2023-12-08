@@ -1,13 +1,31 @@
-# python_research_template
+# nifty roi extractor
 
-A template for anyone in the Ahmed Lab looking to do python work. Run `python setup.py` and follow the prompt(s)
+Loads .nii file (xyzt), runs motion correction via ants, and extracts ROIs over time.
 
-# Pre-requisites
+## Pre-requisites
 
 - [Anaconda](https://www.anaconda.com/download)
+- [homebrew](https://brew.sh/)
+- [ants](https://github.com/ANTsX/ANTsPy)
 
-# Next Steps
+### installing ants
+ants is powerful but challenging to install. It may help to first install `cmake` and/or `libpng`
 
-1. create the conda env by running `conda env create -f environment.yml`
-2. run `conda env export --no-builds > environment.yml` to output a build-able version of your packages for reproducibility
-3. delete the contents of this `README.md` and include a descriptive writeup of your own project
+-- `pip install cmake`
+-- `brew install libpng`
+
+then run:
+-- `pip install antspyx`
+
+#### debugging ants install
+
+If that doesn't work, make sure you have the correct python version. 
+
+`python --version`
+
+For example, I installed `python 3.11` and then ran this to pull a [specific release](https://github.com/ANTsX/ANTsPy/releases):
+
+`pip install https://github.com/ANTsX/ANTsPy/releases/download/v0.4.2/antspyx-0.4.2-cp311-cp311-macosx_10_9_x86_64.whl`
+
+note: "cp311" refers to `python 3.11`
+
