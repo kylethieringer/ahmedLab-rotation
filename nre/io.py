@@ -25,8 +25,10 @@ def load(fpath: str):
     LOG.debug(f"volume shape: {volume.shape}")
     return volume
 
-def save_nii(fpath, volume):
-    pass
+def save(fpath: str, volume):
+    "save volume to fpath"
+    ants.image_write(ants.from_numpy(volume), fpath)
+    LOG.info(f'saved volume to: {fpath}')
 
 def load_pickle(fpath):
     pass

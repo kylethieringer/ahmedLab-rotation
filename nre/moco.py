@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 MOCO: motion correct volumes
-- align volumes to a fixed brain using ANTsPy SyN
+- align moving volumes to a fixed brain using ANTsPy SyN
 
 07 dec 2023
 @author: sama ahmed
