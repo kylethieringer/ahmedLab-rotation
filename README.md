@@ -1,8 +1,6 @@
-# nifty roi extractor
-
-## demo.ipynb  
-
-Loads `.nii` file (`xyzt`), runs motion correction via ANTsPy, and extracts ROIs over time.
+# ahmed lab rotation project
+this initial repository was cloned from here: [nifty-roi-extractor](https://github.com/oahmedlab/nifty-roi-extractor)  
+the rest of this repository contains code related to my rotation project
 
 ## Pre-requisites
 
