@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
 """
 ROI: functions for processing voxels into ROIs
 11 dec 2023

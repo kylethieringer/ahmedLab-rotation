@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
 """
 IO: input/output utils for loading, saving image arrays
 07 dec 2023

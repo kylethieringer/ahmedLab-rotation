@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
 """
 MOCO: motion correct volumes
 - align moving volumes to a fixed brain using ANTsPy SyN
